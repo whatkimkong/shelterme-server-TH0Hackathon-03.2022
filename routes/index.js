@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const authRoutes = require("./auth.routes");
 const profileRoutes = require("./profile.routes"); // added for profile page
-const { isLoggedIn } = require("../middlewares/authorization"); // middlewares
+const {isLoggedIn} = require("../middlewares/authorization"); // middlewares
 const recipeRoutes = require("./recipe.routes"); // added for recipes
 const commentRoutes = require("./comment.routes");
 const cloudinaryRoutes = require("./cloudinaryRoutes");
